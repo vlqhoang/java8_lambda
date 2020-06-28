@@ -1,0 +1,8 @@
+distinct() -> remove duplicate data in stream
+count() -> to count elements
+sorted() -> to sort data - customized with functional interface Comparator
+max() / min() -> to find max / min element in stream, Comparator is used
+limit() -> to limit number of elements in a stream, others will be ignored
+skip() -> to skip number of elements in a stream, opposite with limit()
+allMatch() / anyMatch() / noneMatch() -> return booleans
+findAny() / findFirst() -> find element in a stream upon given criteria
